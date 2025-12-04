@@ -2,7 +2,7 @@
 
 layout: col-sidebar
 title: Abuse of Functionality
-author: Colin Watson
+author: 
 contributors: 
 permalink: /attacks/Abuse_of_Functionality
 tags: attack, Abuse of Functionality
@@ -19,11 +19,11 @@ may exploit business logic vulnerabilities, or insufficient anti-automation vuln
 The misuse may adversely affect the application itself, applications' users, application data,
 and application owners.
 
-Abuse of Functionality can be mistakenly reported as Denial of Service (DoS), but DoS is often only a side-effect
-of the intended Abuse of functionality attack, not the primary aim.
+Abuse of Functionality can be mistakenly reported as Denial of Service (DoS), but any DoS is often only a side-effect
+of the intended attack, not the primary aim. The real intent might be to discover secrets, copy proprietary data, obtain goods and services unfairly, influence others, cheat, etc.
 
 ## References
 
-[CAPEC: Abuse Existing Functionality](https://capec.mitre.org/data/definitions/210.html)
-[Abuse of Functionality](http://projects.webappsec.org/w/page/13246913/Abuse%20of%20Functionality)
-[OWASP Automated Threat Handbook - Web Applications](https://owasp.org/www-project-automated-threats-to-web-applications/)
+- [CAPEC: Abuse Existing Functionality](https://capec.mitre.org/data/definitions/210.html)
+- [WASC: Abuse of Functionality](http://projects.webappsec.org/w/page/13246913/Abuse%20of%20Functionality)
+- [OWASP Automated Threat Handbook - Web Applications](https://owasp.org/www-project-automated-threats-to-web-applications/)
